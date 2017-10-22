@@ -1,0 +1,14 @@
+[package]
+name = "grocerator"
+version = "0.1.0"
+authors = ["Marcin Grzywaczewski <killavus@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.3"
+rocket_codegen = "0.3.3"
+diesel = { version = "0.16.0", features = ["postgres"] }
+diesel_codegen = { version = "0.16.0", features = ["postgres"] }
+dotenv = "0.9.0"
+error-chain = "0.11.0"
+r2d2 = "0.7.4"
+r2d2-diesel = "0.16.0"
